@@ -66,7 +66,7 @@ function formatNumberForMobileDialing(country, phone) {
 }
 
 // -------------------------------------------------------------------------
-function isValidNumber(phone) {
+function isValidNumber(country,phone) {
 	/*
 	
 	Tests whether a phone number matches a valid pattern. Note this doesn't

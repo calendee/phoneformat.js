@@ -64,7 +64,7 @@ function processPhone() {
 		$('#phone_country').html(countryCode + " - " + countryCodeToName(countryCode));
 	}
 	$('#phone_mobile_dial').html(formatNumberForMobileDialing(country, phone));
-	if (isValidNumber(phone)) {
+	if (isValidNumber(country,phone)) {
 		$('#phone_valid').html('Yes');
 	} else {
 		$('#phone_valid').html('No');
